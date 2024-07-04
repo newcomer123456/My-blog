@@ -1,0 +1,69 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Стилі для контейнера списку постів */
+.post-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Стилі для кожного елемента поста */
+.post-item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Стилі для заголовка поста */
+.post-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post-title a:hover {
+    color: #007BFF;
+}
+
+/* Стилі для дати публікації поста */
+.post-date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+/* Стилі для автора поста */
+.post-author {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.post-author a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post-author a:hover {
+    color: #007BFF;
+}
+
+/* Стилі для контенту поста */
+.post-content {
+    font-size: 16px;
+    color: #333;
+}
